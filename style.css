@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: boder-box;
+    background-image: linear-gradient(315deg, #7ed6df -30%, #000000 74%);
+    height: 100vh;
+    color: #fff;
+    font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    background-color: inherit;
+    color: inherit;
+    border: none;
+    cursor: pointer;
+}
+
+#dados {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2em 0 1em 0;
+}
+
+#button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+}
+
+.botoes_navegacao {
+    font-size: 3em;
+}
+
+.botoes_central {
+    font-size: 4em;
+}
+
+#capa_musica {
+    width: 450px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+#titulo_playlist {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2em 0 2em;
+    color: #fff;
+    font-size: 1.9em;
+    font-weight: 600;
+}
+
+#nome_musica {
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: #fff;
+}
+
+.cor_leve {
+    color: #8b999c;
+}
+
+#favorito {
+    font-size: 1.5em;
+}
+
+#embaralhar {
+    font-size: 1.5em;
+}
+
+#repetir {
+    font-size: 1.5em;
+}
+
+#barra_progresso {
+    background-color: #8b999c;
+    height: 3px;
+    width: 100%;
+    border-radius: 15px;
+}
+
+#progress-container {
+    cursor: pointer;
+}
+
+#progresso_atual {
+    --progress: 0%;
+    background-color: #fff;
+    height: inherit;
+    width: var(--progress);
+    border-radius: inherit;
+}
+
+.botao_ativo {
+    color: #00a300;
+}
+
+#time-box {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-size: smaller;
+    margin-top: 0.5em;
+}
