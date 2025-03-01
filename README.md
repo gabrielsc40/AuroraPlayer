@@ -1,4 +1,4 @@
-# Player Music
+# AuroraPlayer
 
 Este projeto é um player de música simples e responsivo desenvolvido com HTML, CSS e JavaScript. Ele permite que os usuários reproduzam, pausem, avancem e retrocedam músicas, além de oferecer funcionalidades como embaralhar a playlist, repetir a música atual e marcar músicas como favoritas. O design é moderno e minimalista, com uma interface intuitiva que facilita a navegação.
 
